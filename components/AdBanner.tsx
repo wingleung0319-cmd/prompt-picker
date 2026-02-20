@@ -16,7 +16,7 @@ export function AdBanner({
   format = "auto",
   className,
 }: AdBannerProps) {
-  const adRef = React.useRef<HTMLDivElement>(null);
+  const adRef = React.useRef<HTMLModElement>(null);
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
