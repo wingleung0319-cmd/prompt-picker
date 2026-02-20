@@ -28,6 +28,7 @@ import {
   type IntensityLevel,
 } from "@/data/compositionCameraPool";
 import { CameraDialIcon } from "@/components/CameraDialIcon";
+import { AdBanner } from "@/components/AdBanner";
 
 const STORAGE_KEY = "ai-prompt-generator-selections";
 const CUSTOM_PROMPT_STORAGE_KEY = "ai-prompt-generator-custom-prompt";
@@ -434,6 +435,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <AdBanner format="horizontal" />
     </div>
   );
 }
