@@ -29,6 +29,7 @@ import {
 } from "@/data/compositionCameraPool";
 import { CameraDialIcon } from "@/components/CameraDialIcon";
 import { AdBanner } from "@/components/AdBanner";
+import { Footer } from "@/components/Footer";
 
 const STORAGE_KEY = "ai-prompt-generator-selections";
 const CUSTOM_PROMPT_STORAGE_KEY = "ai-prompt-generator-custom-prompt";
@@ -436,6 +437,7 @@ export default function Home() {
         </div>
       </main>
       <AdBanner format="horizontal" />
+      <Footer />
     </div>
   );
 }

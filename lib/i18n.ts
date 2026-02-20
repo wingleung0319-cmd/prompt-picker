@@ -35,6 +35,7 @@ export const translations = {
     compositionIntensity1: "Calm",
     compositionIntensity2: "Artistic",
     compositionIntensity3: "Intense",
+    copyright: `© ${new Date().getFullYear()} Prompt Picker. All rights reserved.`,
   },
   zh: {
     appTitle: "提示詞選擇器",
@@ -70,6 +71,7 @@ export const translations = {
     compositionIntensity1: "平穩",
     compositionIntensity2: "藝術",
     compositionIntensity3: "震撼",
+    copyright: `© ${new Date().getFullYear()} 提示詞選擇器。版權所有。`,
   },
 } as const;
 
