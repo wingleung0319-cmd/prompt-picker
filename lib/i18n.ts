@@ -2,7 +2,7 @@ export type Locale = "en" | "zh";
 
 export const translations = {
   en: {
-    appTitle: "Prompt Picker",
+    appTitle: "Prompt Picker - AI Prompt Generator",
     generate: "Generate",
     random: "Random",
     clear: "Clear",
@@ -38,7 +38,7 @@ export const translations = {
     copyright: `© ${new Date().getFullYear()} Prompt Picker. All rights reserved.`,
   },
   zh: {
-    appTitle: "提示詞選擇器",
+    appTitle: "Prompt Picker AI圖像提示詞選擇器",
     generate: "產生",
     random: "隨機",
     clear: "清除",
@@ -71,7 +71,8 @@ export const translations = {
     compositionIntensity1: "平穩",
     compositionIntensity2: "藝術",
     compositionIntensity3: "震撼",
-    copyright: `© ${new Date().getFullYear()} 提示詞選擇器。版權所有。`,
+    copyright: `© ${new Date().getFullYear()} Prompt Picker AI圖像提示詞選擇器
+。版權所有。`,
   },
 } as const;
 
